@@ -23,8 +23,8 @@ elif total>=1000 and total<=2999:
 elif total<1000:
     discount_rate = 0
 
-discount = total * discount_rate
-final_total = total - discount
+discount = total*discount_rate
+final_total = total-discount
 
 print(f"\nCustomer Name: {c_name}")
 
